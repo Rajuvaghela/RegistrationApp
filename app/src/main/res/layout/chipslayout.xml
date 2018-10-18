@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/common_10_dp"
+    android:background="@drawable/btn_shape_chip">
+
+    <TextView
+        android:id="@+id/txtChips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/common_5_dp"
+        android:text="Suresh"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h5" />
+
+    <ImageView
+        android:id="@+id/btnRemove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_5_dp"
+        android:layout_marginStart="@dimen/common_5_dp"
+        android:layout_toEndOf="@id/txtChips"
+        android:layout_toRightOf="@id/txtChips"
+        android:src="@drawable/ic_cross" />
+</RelativeLayout>

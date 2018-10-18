@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/rlContentBillingAddress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightgray"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rvAddressDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtCustomerAddressLine1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/h4">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtCustomerAddressline1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_5_dp"
+                            android:hint="@string/address1"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:textSize="@dimen/h4" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtCustomerAddressline2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtCustomerAddressLine1"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/h4">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtCustomerAddressline2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_5_dp"
+                            android:hint="@string/address2"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:textSize="@dimen/h4" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtCustomerCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtCustomerAddressline2"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/h4">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtCustomerCity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_5_dp"
+                            android:hint="@string/city"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:singleLine="true"
+                            android:textSize="@dimen/h4" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtCustomerState"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtCustomerCity"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/h4">
+
+                        <com.xtensolution.kptt.custom.MyAutoCompleteTextView
+                            android:id="@+id/actCustomerState"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_15_dp"
+                            android:hint="@string/search_state"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapSentences" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/txtCustomerPinCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtCustomerState"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/h4">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtCustomerPinCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_5_dp"
+                            android:hint="@string/pincode"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:singleLine="true"
+                            android:textSize="@dimen/h4" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+</RelativeLayout>

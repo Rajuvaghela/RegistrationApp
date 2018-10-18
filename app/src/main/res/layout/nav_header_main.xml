@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--FrameLayout
+        android:id="@+id/flImgUser"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_80_dp"
+        android:layout_marginTop="@dimen/common_30_dp">
+
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_width="@dimen/common_80_dp"
+            android:src="@drawable/riotech"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="@dimen/common_30_dp"
+            android:layout_height="@dimen/common_30_dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/selector_icon"
+            android:padding="6dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:visibility="visible" />
+    </FrameLayout>-->
+
+    <FrameLayout
+        android:id="@+id/flImgUser"
+        android:layout_width="@dimen/common_80_dp"
+        android:layout_height="@dimen/common_80_dp"
+        android:layout_marginTop="@dimen/common_30_dp">
+
+        <com.xtensolution.kptt.custom.RoundedImageView
+            android:id="@+id/imgUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_avatar" />
+
+        <ImageView
+            android:layout_width="@dimen/common_30_dp"
+            android:layout_height="@dimen/common_30_dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/selector_icon"
+            android:padding="6dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/common_10_dp"
+        android:layout_marginLeft="@dimen/common_10_dp"
+        android:layout_marginRight="@dimen/common_10_dp"
+        android:layout_marginStart="@dimen/common_10_dp"
+        android:layout_marginTop="@dimen/common_45_dp"
+        android:layout_toEndOf="@id/flImgUser"
+        android:layout_toRightOf="@id/flImgUser"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suresh Patel"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/h3"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RionTech"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/h3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_5_dp"
+            android:text="ANDROID DEVELOPER"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/h6"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spnUser"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flImgUser"
+        android:layout_marginTop="@dimen/common_10_dp" />
+
+</LinearLayout>

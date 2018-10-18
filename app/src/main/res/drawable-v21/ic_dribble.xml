@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016 riontech-xten
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="96"
+    android:viewportHeight="96"
+    android:width="96dp"
+    android:height="96dp">
+    <path
+        android:pathData="M95.9 50.072C85.816 46.896 74.056 46.52 62.336 49.088 60.492 44.536 58.416 40.072 56.1 35.704 67.584 31.452 77.388 25.12 83.592 15.916 91.272 24.432 96 35.668 96 48c0 0.7 -0.08 1.38 -0.1 2.072zM80.48 12.768C74.772 21.708 65.248 27.8 53.996 31.872 48.008 21.328 40.688 11.48 32.276 2.696 37.212 0.98 42.484 0 48 0 60.532 0 71.92 4.868 80.48 12.768ZM27.652 4.588c8.376 8.508 15.68 18.288 21.68 28.836C34.028 38.068 16.296 39.496 0.792 39.536 3.568 24.028 13.8 11.112 27.652 4.588ZM0 48C0 46.616 0.088 45.256 0.208 43.908 16.472 43.9 35.22 42.384 51.44 37.304c2.248 4.236 4.296 8.572 6.108 12.988 -16.432 4.756 -32.22 15.46 -42.484 32.54C5.812 74.072 0 61.712 0 48Zm18.396 37.712c9.732 -16.584 24.948 -26.916 40.72 -31.4 4.624 12.264 7.54 24.992 8.428 37.484C61.572 94.476 54.964 96 48 96 36.828 96 26.56 92.132 18.396 85.712Zm53.52 3.844c-0.86 -12.296 -3.608 -24.58 -7.992 -36.408 11 -2.296 22.016 -1.836 31.388 1.288 0.068 0.024 0.136 0.008 0.204 0.024 -2.036 15.008 -11.008 27.82 -23.6 35.096z"
+        android:fillColor="#ffffff" />
+</vector>

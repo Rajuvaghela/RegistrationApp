@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
+    <item>
+        <selector>
+            <!--When got error -->
+            <item android:state_activated="true">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <solid android:color="@color/red" />
+                    <corners android:radius="@dimen/btnRadius" />
+
+                    <padding
+                        android:bottom="1dp"
+                        android:left="1dp"
+                        android:right="1dp"
+                        android:top="1dp" />
+
+                </shape>
+            </item>
+
+            <!--On Success -->
+            <item android:state_selected="true">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <solid android:color="@color/purpale_green" />
+                    <corners android:radius="@dimen/btnRadius" />
+                    <padding
+                        android:bottom="1dp"
+                        android:left="1dp"
+                        android:right="1dp"
+                        android:top="1dp" />
+
+                </shape>
+            </item>
+
+            <!--Starting progress-->
+            <item android:state_enabled="false">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <solid android:color="@color/text_color_dark_grey" />
+                    <corners android:radius="@dimen/btnRadius" />
+                    <padding
+                        android:bottom="1dp"
+                        android:left="1dp"
+                        android:right="1dp"
+                        android:top="1dp" />
+
+                </shape>
+            </item>
+
+            <!-- Stop progress and re-activated -->
+            <item android:state_enabled="true">
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <solid android:color="@android:color/darker_gray" />
+                    <corners android:radius="@dimen/btnRadius" />
+                    <padding
+                        android:bottom="1dp"
+                        android:left="1dp"
+                        android:right="1dp"
+                        android:top="1dp" />
+                </shape>
+            </item>
+
+            <!--Default background-->
+            <item>
+                <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+                    <solid android:color="@android:color/darker_gray" />
+                    <corners android:radius="@dimen/btnRadius" />
+                    <padding
+                        android:bottom="1dp"
+                        android:left="1dp"
+                        android:right="1dp"
+                        android:top="1dp" />
+
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+</ripple>

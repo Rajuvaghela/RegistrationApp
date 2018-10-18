@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016 riontech-xten
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <include layout="@layout/view_recyclerview"/>
+
+    <!--<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/loadMore"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="16dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:background="@color/purpale_green"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:text="Loading Please Wait......"-->
+            <!--android:visibility="gone" />-->
+
+      <!--&lt;!&ndash;  <ProgressBar-->
+            <!--android:id="@+id/loadMore"-->
+            <!--style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:indeterminate="true"-->
+            <!--android:visibility="gone" />&ndash;&gt;-->
+
+        <!--<android.support.v7.widget.SearchView-->
+            <!--android:id="@+id/search"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/common_2_dp"-->
+            <!--android:layout_marginBottom="@dimen/common_2_dp"-->
+            <!--android:background="@drawable/button_shape"-->
+            <!--android:clickable="true"-->
+            <!--android:visibility="gone" />-->
+
+       <!--&lt;!&ndash; <LinearLayout-->
+            <!--android:id="@+id/llSalesSearchSpinner"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+
+            <!--android:background="@drawable/btn_bg"-->
+            <!--android:layout_marginTop="@dimen/common_5_dp"-->
+            <!--android:layout_marginLeft="@dimen/common_15_dp"-->
+            <!--android:layout_marginStart="@dimen/common_15_dp"-->
+            <!--android:layout_marginRight="@dimen/common_15_dp"-->
+            <!--android:layout_marginEnd="@dimen/common_15_dp"-->
+            <!--android:layout_marginBottom="@dimen/common_5_dp"-->
+            <!--android:layout_below="@id/search">-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/spnSalesItem"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="@dimen/common_10_dp"-->
+            <!--android:layout_marginEnd="@dimen/common_10_dp"-->
+            <!--android:layout_marginLeft="@dimen/common_10_dp"-->
+            <!--android:layout_marginStart="@dimen/common_10_dp"-->
+            <!--android:layout_marginTop="@dimen/common_10_dp"-->
+            <!--android:layout_marginBottom="@dimen/common_5_dp"-->
+            <!--android:entries="@array/spnSalesItem"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:textSize="@dimen/h4" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/common_10_dp"-->
+            <!--android:layout_below="@id/spnSalesItem"-->
+            <!--android:layout_marginLeft="@dimen/common_3_dp"-->
+            <!--android:layout_marginStart="@dimen/common_3_dp"-->
+            <!--android:background="@color/black" />-->
+        <!--</LinearLayout>&ndash;&gt;-->
+
+        <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/refreshLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_above="@id/loadMore"-->
+            <!--android:layout_below="@id/search">-->
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/recyclerView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/colorBg"-->
+                <!--android:orientation="vertical">-->
+
+            <!--</android.support.v7.widget.RecyclerView>-->
+
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:indeterminateTint="@color/colorAccent"-->
+            <!--android:visibility="gone" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/llNDF"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/colorBg"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="gone">-->
+
+            <!--<include layout="@layout/no_data_found_view" />-->
+        <!--</LinearLayout>-->
+
+        <!--<include-->
+            <!--android:id="@+id/viewNoResultFound"-->
+            <!--layout="@layout/no_result_found"-->
+            <!--android:visibility="gone" />-->
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/fabCreateNew"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_gravity="bottom|end"-->
+            <!--android:layout_margin="@dimen/activity_horizontal_margin"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:src="@drawable/ic_add"-->
+            <!--app:backgroundTint="@color/colorPrimary"-->
+            <!--app:layout_behavior="com.xtensolution.kpt.ui.custom.FabActionButtonBehaviour"-->
+            <!--app:rippleColor="@color/white" />-->
+    <!--</RelativeLayout>-->
+</android.support.v4.widget.NestedScrollView>

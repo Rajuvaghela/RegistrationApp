@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Core</string>
+    <string name="please_wait">Please wait…</string>
+
+    <string name="dlg_error">Error</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_loading">Loading…</string>
+    <string name="dlg_choose_image_from">Select photo from…</string>
+    <string name="dlg_retry">Retry</string>
+    <string name="dlg_success">Success</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="something_wrong">Something went wrong.\nPlease retry or exit from application.</string>
+    <string name="no_connection_found">Slow or no internet connection.\nPlease check your internet setting.</string>
+    <string name="login_progress">Login...</string>
+    <string name="processing">Processing...</string>
+</resources>

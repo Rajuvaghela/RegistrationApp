@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/_350sdp">
+
+    <TextView
+        android:id="@+id/txtLbDiscount"
+        android:background="@color/purpale_green"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="@dimen/common_10_dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/tearms_condition" />
+
+    <ImageView
+        android:id="@+id/imgPopUpCancel"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/padding_5dp"
+        android:layout_marginEnd="@dimen/padding_5dp"
+        android:background="@drawable/selector_green_btn"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_10_dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/close"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imgPopUpCancel">
+
+
+   <!-- <TextView
+        android:id="@+id/txtTearmsAndConditionvalue"
+        android:layout_width="match_parent"
+        style="@style/editView_black_12sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="@string/tearms_conditiona_value" />-->
+
+        <WebView
+            android:id="@+id/webview"
+            android:scrollbars="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

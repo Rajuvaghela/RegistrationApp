@@ -1,0 +1,554 @@
+<resources>
+
+    <string name="app_name">Registration App New</string>
+    <string name="map_api_key">AIzaSyCXjWuNs2dCectvJvy8EHitnTNkFKoK3TI</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="center_name">Infinite</string>
+    <string name="welcome_msg">Welcome to</string>
+    <string name="medical_center">@string/app_name</string>
+    <string name="read_more">Read More &#62;&#62;</string>
+    <string name="foundation">Foundation</string>
+    <string name="since_to">ESTD Since 1972</string>
+    <string name="more">MORE</string>
+    <string name="View_pdf">View Pdf</string>
+    <string name="yes">yes</string>
+    <string name="no">no </string>
+    <string name="declarationNote">I declare that the information provided
+        herewith is correct and valid, and that I have read and understood
+        the tearms and conditions.
+    </string>
+
+    <string name="read_tearms_and_condition">Read Tearms &#38; Condition </string>
+
+
+    <!--Menu Start-->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="committee">Committee</string>
+    <string name="members">Members</string>
+    <string name="download">Download</string>
+    <string name="cme">CME</string>
+    <string name="activities">Activities</string>
+    <string name="gallery">Gallery</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact_us">Contact us</string>
+
+    <!--<strsareeNamename="meet_doctors">Meet Doctors</string>-->
+    <!--<strsareeNamename="recent_news">Recent News</string>-->
+    <!--<strsareeNamename="make_an_appointment">Make an appointment</string>-->
+    <!--<strsareeNamename="testimonial">Testimonial</string>-->
+
+    <!--End Menu-->
+
+    <!-- Start Department -->
+    <string name="office_brearer">Office Bearers</string>
+    <string name="advisory_board">Advisory Board</string>
+    <string name="co_op_director">Co.Op.Director</string>
+    <string name="editor">Editor</string>
+    <string name="co_ordinator">Co.Ordinator</string>
+    <string name="trustee">Trustee</string>
+    <!-- End Department -->
+    <string name="opening_hour">Opening hours</string>
+    <string name="textMsg">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</string>
+    <string name="mon_fri">Mon - Fri</string>
+    <string name="mon_fri_time">08:00 - 21:00</string>
+    <string name="sat_sun">Sat - Sun</string>
+    <string name="sat_sun_time">09:00 - 20:00</string>
+    <string name="about_medical_center">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.</string>
+    <string name="chest">Chest</string>
+    <string name="heart">Heart</string>
+    <string name="bone">Bone</string>
+    <string name="brain">Brain</string>
+    <string name="surgery">Surgery</string>
+    <string name="cancer">Cancer</string>
+    <string name="children">Children</string>
+    <string name="eye">Eye Ent</string>
+    <string name="sabarmati_medical_association">SABARMATI MEDICAL\nFOUNDATION</string>
+
+    <!-- Social -->
+    <string name="facebook">Facebook</string>
+    <string name="google_plus">Google Plus</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+
+    <string name="hint_fname">First Name</string>
+    <string name="hint_lname">Last Name</string>
+
+
+    <!--New Customer-->
+    <string name="registration">Registration</string>
+    <string name="new_customer">New Customer</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="new_expenses">Create New Expenses</string>
+    <string name="expenses_list">Expenses List</string>
+    <string name="customer">Customers</string>
+    <string name="company_name">Company Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="gst_no">GST NO %s</string>
+
+    <!-- Address labels-->
+    <string name="address">Address</string>
+    <string name="address1">Address Line 1</string>
+    <string name="address2">Address Line 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pincode">PinCode</string>
+
+    <string name="copy_billing_address">Copy Billing Address</string>
+    <string name="work_phone">Phone</string>
+    <string name="payment_terms">Payment Terms</string>
+    <string name="fax">Fax</string>
+    <string name="credit_limit">Credit Limit</string>
+    <string name="add_shipping_address">Add Shipping Address</string>
+    <string name="add_billing_address">Add Billing Address</string>
+    <string name="add_address">Add Address</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="load_more">load_more</string>
+    <string name="ooops">ooops</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="more_search">More Search</string>
+    <string name="search_hint">Search Hint</string>
+
+
+    <!--#################################################################################-->
+
+    <string name="design_no">Design No</string>
+    <string name="type_of_work">Type OF Work</string>
+    <string name="color">Color</string>
+    <string name="set_price">Set Price</string>
+    <string name="piece_price">Piece Price</string>
+    <string name="setprices">setprices</string>
+    <string name="pieceprice">Piece Price</string>
+    <string name="add">Add</string>
+    <string name="pieces_in_price">Pieces in Price</string>
+    <string name="type_of_saree">Type Of Saree</string>
+    <string name="type_of_Design">Type Of Design</string>
+    <string name="pieces_in_set">Pieces In Set</string>
+    <string name="done">Done</string>
+    <string name="design_listing">Design Listing</string>
+    <string name="create_new_Agent">Create New Agent</string>
+    <string name="edit_agent">Edit Agent</string>
+    <string name="payments_received">Payments Received</string>
+    <string name="create_new_Design">Create New Design</string>
+    <string name="edit_Design">Edit Design</string>
+    <string name="create_new_labour">Create New Labour</string>
+    <string name="edit_labour">Edit Labour</string>
+    <string name="create_new_Sales">Create New Sales</string>
+    <string name="edit_sales">Edit Sales</string>
+    <string name="create_sales_return">Create Sales Return</string>
+    <string name="create_address">Add Address</string>
+    <string name="login_page">Login</string>
+    <string name="save">Save</string>
+    <string name="transportss">Transport</string>
+    <string name="create_new_transport">Create New Transport</string>
+    <string name="edit_transport">Edit Transport</string>
+
+    <string name="set_discount_value">0</string>
+    <string name="set_cgst_value">2.5</string>
+    <string name="set_sgst_value">2.5</string>
+    <string name="set_igst_value">0</string>
+
+    <string name="agent">Agent</string>
+    <string name="filter">Filter</string>
+    <string name="filter_results">Filter Results</string>
+
+    <!--===================display title Activity and Fragment-->
+    <string name="labor">Labour</string>
+    <string name="orderlist">Order Listing</string>
+    <string name="saleslist">Sales Listing</string>
+    <string name="sales_return">Sales Return</string>
+    <string name="transports"> Create New Transport</string>
+    <string name="create_new_vendor"> Create New Vendor</string>
+    <string name="edit_vendor">Edit Vendor</string>
+    <string name="new_order">Create New order</string>
+    <string name="edit_order">Edit Order</string>
+
+    <string name="order_no">Order No</string>
+    <string name="date">Date</string>
+    <string name="company_details">Company Details</string>
+    <string name="nirav_texttiels_opp_falcan_complex_nana_varacha_surat_pin_365577">Nirav Texttiels opp Falcan Complex nana Varacha Surat pin- 365577</string>
+    <string name="transport_name">Transport Name</string>
+    <string name="agent_name">Agent Name</string>
+    <string name="item_details">Item Details</string>
+    <string name="remark">Remarks</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="gross_total">Gross Total</string>
+    <string name="discount">Discount (0%)</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="gst_5">GST (5%)</string>
+    <string name="in_worde">In Words</string>
+    <string name="mobile_no">Mobile</string>
+    <string name="autogenerated">Autogenerated</string>
+    <string name="forgot_pass_text">Lost your password? Do not worry - Now you can reset your password via registered mobile.</string>
+    <string name="validate_mobile">Enter validate Mobile No</string>
+    <string name="expenses_categoty_add">Add Category</string>
+    <string name="expenses_categoty_select">Select Category</string>
+
+    <!--Customer Details-->
+    <string name="customerdetails">Customer Details</string>
+    <string name="transportdetails">Transport Details</string>
+    <string name="labourdetails">Labour Details</string>
+    <string name="vendordetails">Vendor Details</string>
+    <string name="agentdetails">Agent Details</string>
+    <string name="payment_received_details">Payment Received Details</string>
+    <string name="ledgers_details">Ledgers</string>
+    <string name="orderdetails">Order Details</string>
+    <string name="salesDetails">Sales Details</string>
+    <string name="sales_return_details">Sales Return Details</string>
+    <string name="designdetails">Design Details</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="contacts">Contacts</string>
+    <string name="other_contacts">Other Contacts </string>
+    <string name="text_more">⋮</string>
+    <string name="add_contact_person">+ Add Contact Person</string>
+    <string name="create_new_item">Create New Item</string>
+    <string name="search_design">Search Design</string>
+    <string name="set">Set</string>
+    <string name="add_more">Add More</string>
+    <string name="edit">Edit</string>
+    <string name="add_items">Add Items</string>
+    <string name="add_other_contacts">Add Contacts</string>
+
+    <string name="qty_type">Qty Type</string>
+    <string name="l_r_no">L R No</string>
+    <string name="agent_haste">AGENT/HASTE</string>
+    <string name="notes">Notes</string>
+    <string name="login">Login</string>
+    <string name="processing">Processing</string>
+
+    <string name="quantity_type">Quantity Type</string>
+    <string name="type_of_fabric">Type OF Fabric</string>
+    <string name="designname">Design Name</string>
+    <string name="barcode">Barcode</string>
+    <string name="stock">Stock</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="verify">Verify</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="submit">Submit</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="username_password_inc">Username and Password InCorrect  Please Try Again.</string>
+    <string name="remember_me">Remember Me</string>
+
+    <string name="password">Password</string>
+    <string name="enter_user_name">Please enter Username</string>
+    <string name="enter_password">Please enter Password</string>
+    <string name="enter_company_name">Please Enter Company Name</string>
+    <string name="enter_category_name">Please Enter Category Name</string>
+    <string name="enter_invoice_no">Enter Invoice No</string>
+    <string name="enter_order_no">Enter Order No</string>
+    <string name="enter_first_name">Please enter First Name</string>
+    <string name="enter_last_name">Please enter Last Name</string>
+    <string name="enter_mobile_no">Please enter Mobile No</string>
+    <string name="enter_phone_no">Please enter Phone No</string>
+    <string name="enter_email_id">Please enter Email</string>
+    <string name="enter_date">Please enter Date </string>
+    <string name="enter_city">Please enter City</string>
+    <string name="enter_state">Please enter State</string>
+    <string name="enter_givenByName">Please enter Given By Name</string>
+    <string name="enter_receivedByName">Please enter Received By Name</string>
+    <string name="enter_transaction_no">Please enter Tranaction No</string>
+    <string name="enter_gst_no">Please enter Gst No</string>
+
+    <string name="enter_amounts">Please enter Amount</string>
+    <string name="enter_Refrence">Please enter Refrence</string>
+    <string name="enter_design_no">Please enter Design No</string>
+    <string name="enter_design_name">Please enter Design Name</string>
+    <string name="enter_barcode_no">Please enter Barcode No</string>
+    <string name="enter_hsn_code">Please enter HSN Code</string>
+    <string name="enter_piece_price">Please enter Piece Price</string>
+    <string name="enter_stock">Please enter Stock</string>
+    <string name="enter_Address">Please enter Address</string>
+    <string name="enter_discount">Please enter Discount %</string>
+    <string name="enter_discount_other">Please enter Discount Amount</string>
+    <string name="enter_email">Please enter Email</string>
+    <string name="enter_contact_name">Please enter Contact Name</string>
+    <string name="enter_valid_qty">Please add valid Qty</string>
+    <string name="enter_valid_rate">Please add valid Rate</string>
+    <string name="select_at_least_1_item">Please select at least 1 item to add.</string>
+    <string name="enter_amount">Please Enter Amount Rate</string>
+    <string name="enter_reference">Please Enter Reference Name</string>
+    <string name="enter_payment_mode">Please Enter Payment Mode</string>
+    <string name="enter_payment_date">Please Enter Payment Date</string>
+    <string name="cash_payment_mode">Cash Payment Mode</string>
+    <string name="cheque_payment_mode">Cheque Payment Mode</string>
+    <string name="online_payment_mode">Online Payment Mode</string>
+    <string name="enter_amount_in_word">Enter Amounts in Word</string>
+    <string name="enter_cheque_date"> Please Enter cheque Date</string>
+    <string name="enter_cheque_no">Please Enter cheque No</string>
+    <string name="enter_bank_name">Please Enter Bank Name</string>
+
+
+
+    <string name="create">Create</string>
+    <string name="hsn_code">HSN Code</string>
+    <string name="gst">GST %</string>
+    <string name="gst_lable">GST</string>
+    <string name="spenton">Spent On</string>
+    <string name="date_expence">Date</string>
+    <string name="amount">Amount</string>
+    <string name="refrence">Reference</string>
+    <string name="discount_item">Discount</string>
+    <string name="discount_other">Other Discount</string>
+    <string name="from_date">From Date:</string>
+    <string name="to_date">To Date</string>
+    <string name="descreption">Description</string>
+    <string name="category_name">Category Name</string>
+
+    <string name="enter_gst">Please Enter GST %</string>
+    <string name="enter_your_workspace_id">Enter valid workspace</string>
+
+    <string name="next">Next</string>
+    <string name="kpt_com">.com</string>
+    <string name="enter_name">Enter Name</string>
+
+    <string name="india">India</string>
+
+    <string name="address_placeholder">%s, %s</string>
+
+    <string name="not_available">Not available</string>
+    <string name="email_not_available">Email Not available</string>
+    <string name="phone_not_available">Phone No Not available</string>
+
+    <string name="cgst">CGST(2.5%)</string>
+    <string name="sgst">SGST(2.5%)</string>
+    <string name="igst">IGST(5%)</string>
+    <string name="order_date">Order Date</string>
+    <string name="search_state">Search State</string>
+
+
+    <!--Dynamic format-->
+    <!--&#40;=(
+    &#37;&#37;==%
+    -->
+
+    <string name="label_cgst">CGST&#160;&#40;%1$.1f&#37;&#37;&#41;</string>
+    <string name="label_sgst">SGST&#160;&#40;%1$.1f&#37;&#37;&#41;</string>
+    <string name="label_igst">IGST&#160;&#40;%1$.1f&#37;&#37;&#41;</string>
+    <string name="label_dis">Discount&#160;&#40;%1$.1f&#37;&#37;&#41;</string>
+    <string name="label_dis_others">Other Discount&#160;&#40;%1$.1f&#37;&#37;&#41;</string>
+    <string name="label_dis_other">Other Discount</string>
+
+    <string name="set_item_calculationSign">%1$s * %2$s</string>
+    <string name="share">Share</string>
+    <string name="overdue">OverDue</string>
+    <string name="gst_noo">GST No</string>
+    <string name="sales">Sales</string>
+    <string name="sales_by_item">Sales by Item</string>
+    <string name="sales_by_sales_person">Sales By Sales Person</string>
+    <string name="receivables">Receivables</string>
+    <string name="run_report">Run Report</string>
+    <string name="sales_by_customer">Sales By Customer</string>
+    <string name="delete">Delete</string>
+    <string name="print">Print</string>
+    <string name="downlode_pdf">Downlode Pdf</string>
+    <string name="start_typing_to_select_a_company_name">Start typing to select a Company Name</string>
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
+    <string name="online">Online</string>
+    <string name="amount_in_word">Amount in Word</string>
+    <string name="received_by">Received By</string>
+    <string name="cheque_date">CheQue Date</string>
+    <string name="cheque_no">CheQue No</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="transaction_no">Transaction No</string>
+    <string name="search_order">Search Order</string>
+    <string name="search_sales">Sales</string>
+    <string name="search_orders">Order</string>
+    <string name="paymentDetails">Payment Details</string>
+
+
+
+
+    //Sliding.....
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Master Module</string>
+    <string name="slide_1_desc">All master Like Customer,Agent,Transport are Create,Upadte,View Feasility Provide</string>
+
+    <string name="slide_2_title">Order And Sales</string>
+    <string name="slide_2_desc">Create Order And Sales By SalesMan and owner</string>
+
+    <string name="slide_3_title">Report</string>
+    <string name="slide_3_desc">Sales report generate Like date,month,year,customer,Gst etc report generate</string>
+
+    <string name="slide_4_title">Qr Code Scan</string>
+    <string name="slide_4_desc">Scan Design to get Design details And add to sales automatically</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="other_discount">Other Discount</string>
+    <string name="amount_details">Amount Details</string>
+    <string name="enter_your_remarks">Enter your remarks</string>
+    <string name="qty">Qty</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="close">Close</string>
+    <string name="reset">RESET</string>
+    <string name="apply">APPLY</string>
+    <string name="clear_filter">Clear Filter</string>
+    <string name="today">Today</string>
+    <string name="yeaterday">Yeaterday</string>
+    <string name="last_7_day">Last 7 day</string>
+    <string name="between_dates">Between Dates</string>
+    <string name="between_months">Between Months</string>
+    <string name="past_6_months">Past 6 Months</string>
+    <string name="between_year">Between Year</string>
+    <string name="last_fiscalyear">Last FiscalYear</string>
+    <string name="this_month">This Month</string>
+    <string name="last_30_day">Last 30 day</string>
+    <string name="last_month">Last Month</string>
+    <string name="rate">Rate</string>
+    <string name="update">Update</string>
+    <string name="select_search_type">Please Select Search Type</string>
+    <string name="enter_value">Please Enter Value</string>
+    <string name="closing">Closing</string>
+    <string name="received">Received</string>
+    <string name="total">Total</string>
+    <string name="search_invoice_no">Search Invoice No</string>
+    <string name="invoice_already_paid">This invoice has been already paid by customer.</string>
+
+    <!--<string name="scan_details">Scanneed  %1$s on %2$s at %3$s. Location was %4$s , %5$s</string>-->
+    <string name="dynamic_qty">Qty %1$s</string>
+    <string name="txtOrderId">%1$s-%2$s</string>
+    <string name="invoice_no">Invoice No</string>
+    <string name="vouchertype">VoucherType</string>
+    <string name="receipt">Receipt</string>
+    <string name="entry_type">Entry Type</string>
+    <string name="particulars">Particulars</string>
+    <string name="bank">Bank</string>
+    <string name="chequedate">ChequeDate</string>
+    <string name="chequeno">ChequeNo</string>
+    <string name="given_by">Given By</string>
+    <string name="taken_by">Taken By</string>
+    <string name="transactionid">TransactionId</string>
+
+    <string name="title_validation">Please select title</string>
+    <string name="gender_validation">Please select gender</string>
+    <string name="date_validation">Please select valid date</string>
+    <string name="race_validation">Please select race </string>
+    <string name="nationality_validation">Please select Nationality</string>
+    <string name="areyou_validation">Please select Are You</string>
+    <string name="cellno_allready_exit">Cell No all ready exits</string>
+    <string name="confirm_cellno">Cell No and Confirm Cell No are not same</string>
+    <string name="terms_chk_validation">Please accept our term and conditions</string>
+    <string name="passport_image_validation">Please Select Passport Picture Or Document</string>
+  <!--<string name="passport_image_onlyone_doc_">Please Select only one Passport image option</string>-->
+    <string name="international_passport_image_onlyone_doc_">Please Select InternationalPassport Picture Or Document</string>
+    <string name="proof_of_address_image_onlyone_doc_">Please Select proof address Picture Or Document</string>
+  <!--  <string name="proof_of_employment_address_image_onlyone_doc_">Please Select only one employment address proof option</string>-->
+    <string name="international_passport_image_validation">Please Select InternationalPassport Capture Image</string>
+    <string name="proof_of_employeement">Please Select Proof of employment Picture Or Document</string>
+    <string name="tearms_condition">Terms &#38; Conditions</string>
+
+    <string name="tearms_conditiona_value">
+
+        TERMS and CONDITIONS\n\n
+        1. YOUR AGREEMENT\n
+    ● These terms and conditions are for our eWallet Pro Accounts.\n
+    These terms and conditions may change from time to time. You will be notified about any material changes by sending you an SMS notification.\n
+       In this document:\n\n
+        ‘Account’​ means your eWallet Pro Accounts; ‘Republic’ ​means the Republic of South Africa; ‘HFS’​ means Hillcross Financial Services; ‘FNB’​ means First National Bank
+2. ABOUT YOUR EWALLET PRO ACCOUNT\n\n
+ ● To be eligible to apply for an Account, you must:\n
+        a)be 18 or over;\n
+b) be residing in the Republic;\n
+c) Be employed or self-employed in the Republic;\n
+        d) Have a means of identification;\n
+e) Have a proof of address;\n
+● You may also be asked to declare further to our staff that you are eligible for the Account.\n\n
+● You do not need to buy any other services we offer in order to access the Account. Additional fees and charges may apply to these accounts. For further information please contact our customer helpline.\n\n
+● The Account may only be used for intended purposes only.\n\n
+● You may only hold one Account at any time. Multiple eWallet Pro Account may be opened at the discretion of HFS.\n\n
+● You are expected to deposit within 2 weeks of opening the account else the account will be suspended and will only be reactivated on the payment of R100.\n\n
+● You can open the Account solely in sole name.\n\n
+● You will be provided with an FNB eWallet Pro VISA card once the account is opened.\n\n
+● The maximum amount you can transact per account is R25, 000.00 monthly.
+3. RISK and LIABILITY
+● You use this eWallet Pro Account Service at your own risk. The eWallet Pro Account runs completely on FNB platform yet FNB or even HFS makes no warranty of any kind about the service to you or any other person.
+● eWallet Pro Account is one of the banking products of FNB but the maintenance and
+ 4.
+● ●
+● ●
+● ● ●
+●
+● ●
+management of the accounts which were opened by HFS is the responsibility of HFS.
+HFS customer can only relate any issue concerning the eWallet Pro Account opened by HFS to HFS and not to FNB.
+FNB is not responsible for any loss any client of HFS may suffer as a result of a failure, temporary breakdown or malfunction of any ATM or another device where such loss occur the client must report directly to HFS.
+During periods of load shedding or power failures FNB or HFS cannot guarantee the provision of the eWallet Pro Account service, in this instance FNB or HFS does not accept any liability whatsoever.
+The eWallet Pro Account service may be unavailable from time to time due to interruptions in services provided by third party providers or due to technical interruptions or maintenance requirements, HFS or FNB is not liable for any loss you or the Recipient may suffer because of such interruptions.
+HFS or FNB will not be responsible to you if loses or accidentally discloses any eWallet Pro Account security information to third parties, including the one-time pin sent to you or the Recipient.
+HFS or FNB will not be responsible to you the Sender or the Recipient or any other third party if the funds in a e-wallet Pro account are accessed by a third party because the cell phone was churned and re-allocated by the cell phone provider in line with the provision of RICA.
+HFS or FNB is not responsible to you for any loss or damage you suffer, whether directly or indirectly, because of a third party or its products or services or your use of the products or services. You alone take the risk of using or purchasing third party products or services. You hereby agree to indemnify us and hold HFS harmless for any loss or damage you may suffer, or cause, in this regard. HFS or FNB does not accept any liability with regards to any third-party transactions.
+In the event of a deposit made with the wrong reference, the client is solely responsible for the mistake and HFS will not be held liable and reversal is only possible within a reasonable time that fund has not been withdrawn.
+Where reversal of deposit with wrong reference is possible it will attract a charge of R52.50.
+Lost or stolen card replacement fee is R80.
+SERVICE OFFERING
+1. Send Money
+This eWallet Pro Account service is an instant, easy and affordable money transfer service that allows
+you to send money from your FNB eWallet Pro transactional account to a Recipient with a valid South African cell phone number.
+2. Withdrawals
+● eWallet Pro Recipients can withdraw funds held in a Wallet Pro account from any FNB ATM, Slimline Devices, Stores and any cash-out points.
+● FNB does not guarantee the availability of funds and specific denominations of bank notes and will not be liable for costs associated with part withdrawals.
+3. Prepaid Services
+
+ A Recipient can purchase pre-paid electricity, cell phone airtime, SMS and data bundles.
+4. Point Of Sale (POS)
+A Recipient can use a Point of Sale (POS) device at any stores to make cash withdrawals and payments for goods purchased
+5. LIMITS
+Daily and monthly transaction and channel limits apply to all eWallet Pro Account services. When limits are reached, the use of funds or the service will not be possible. If the sender’s SIM card is swapped, the daily limit will be reduced until the Sender can be authenticated.
+6. FEES and CHARGES
+● Account opening fee is R250 and the minimum payable at the point of opening will be R100 while the balance of R150 can be paid over 3 months in equal installment of the outstanding amount.
+● A monthly fee of R35 will charged for maintenance.
+● HFS may change fees from time to time
+● If there are no financial transactions on the Wallet for 2 (two) continuous months, the Wallet will become inactive and incur monthly service fees. HFS will continue to charge this fee until a new financial transaction occurs on the eWallet Pro Account or the balance on the eWallet Pro Account is reduced to zero, thereafter, the eWallet Pro Account will be closed. HFS will notify the Recipient by SMS on 2nd month about the imminent inactivity status and associated charges.
+● Deposit charges are as follows;
+○ Between R0 – R500 (R20)
+○ Between R501 – R999 (R25)
+○ Between R1001 – R2000 (R30)
+○ Between R2001 – R5000 (R50)
+○ Between R5001 – R10000 (100)
+○ Between R10001 – R20000 (R150)
+○ Between R20001 – R25000 (R200)
+7. PERSONAL INFORMATION
+● HFS will treat all personal information related to you as confidential. HFS will take all reasonable steps to protect personal information provided. HFS will only process and distribute your personal information where:
+● You have given us your consent.
+● The law requires us to do so.
+
+● To detect, prevent and report theft, fraud, money laundering and other crimes.
+● It is in the public interest to do so.
+● Our interests require disclosure, for example default or breach of this agreement.
+● To manage our relationship with you
+● Our internal marketing and product development require the information
+● To process payment instructions
+​8. CLOSING OR SUSPENDING YOUR ACCOUNT
+● If you don’t think the Account is suitable for your needs or you are no longer eligible to hold the Account you can contact any of our agents or our customer service helpline to discuss the account closing issue.
+● We may close or suspend your Account where one or more of the following conditions is met:
+a) there has been no transaction on your Account for about 6 months in a row;
+b) you gave us incorrect information when applying for the Account, and if you gave us the right information, we would not have opened the Account for you;
+c) you are no longer legally living in the Republic;
+d) you have deliberately used your Account for illegal purposes;
+e) it is necessary in order to comply with our obligations under the Criminal Justice (Money Laundering and Terrorist Financing) Act or to avoid or prevent fraud or suspected fraud; and/or
+f) If we must do so in order to comply with any law, regulation, court order, code or other duty that applies to us.
+● We will provide you with 1 months’ prior notice in writing (unless it would be contrary to national security or public policy) if we close or suspend your Account for the following reasons:
+a) there has been no transaction on your Account for more than 6 months in a row;
+b) you are no longer legally living in the Republic
+In all other cases we may close or suspend your Account ​immediately.
+
+    </string>
+    <string name="i_acept_term_and_condition"><![CDATA[I accept the Terms & Conditions]]></string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content">Sabarmati Medical association is one of the largest and well established doctors’regional association in ahmedabd, We doctors of sabarmati medical association call it by lovely nickname SMA.</string>
+    <string name="develop_by">Design and develop by www.riontech.com</string>
+    <string name="no_connection_found">Slow or no internet connection.\nPlease check your internet setting.</string>
+    <string name="app_not_responding">Application not responding. would you like to retry?</string>
+    <string name="something_wrong">Something went wrong.\nPlease retry or exit from application.</string>
+    <string name="network_refuse">Current network refused the connection with server. Please retry or exit.</string>
+    <string name="cme_no_data_found_msg">CME will be organize soon\nwith more interesting topics</string>
+    <string name="activity_no_data_found_msg">Activity will be organize soon\nwith more fun and entertainment</string>
+    <string name="coming_soon">Coming soon...</string>
+    <string name="gallery_empty_msg">You are missing to\ncapture your most memorable moment.</string>
+    <string name="member_empty_msg">No members found!</string>
+    <string name="continue_message">Once saved cannot be modified. Are you sure you wish to continue?</string>
+</resources>

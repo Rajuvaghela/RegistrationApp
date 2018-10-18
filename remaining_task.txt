@@ -1,0 +1,41 @@
+High Priority task
+xyz
+Home page
+1) Member default image in rounded = DONE
+2) Notification blinking horizontal scrolling text
+
+
+1) SMF to Sabarmati medical Foundation - done
+2) SMF Icon on toolbar
+3) Download issue
+4) Search bar in member list
+5) profile issue - Done
+6) CME and Activity title issue - DONE
+7) Menu item selector
+
+
+Youtube page loader
+http://www.truiton.com/2015/03/android-youtube-api-example-channels/
+https://www.androidhive.info/2014/12/how-to-play-youtube-video-in-android-app/
+https://www.sitepoint.com/using-the-youtube-api-to-embed-video-in-an-android-app/
+https://github.com/codepath/android_guides/wiki/Streaming-Youtube-Videos-with-YouTubePlayerView
+https://www.sitepoint.com/using-the-youtube-api-to-embed-video-in-an-android-app/
+http://www.truiton.com/2013/08/android-videoview-example-with-youtube-playback/
+
+https://developers.google.com/youtube/android/player/
+
+Update
+1) File download, size and open bug fixing
+2) Member wrong info bug fixing
+3) App crashed on home screen resolved
+4) Feedback send status like progress, success and fail updated
+5) Feedback not send bug fixing
+6) Refresh committee member bug fixing
+
+
+New task to complete in next update
+1) No data found after search from server
+2) Notification blink text between president and icon
+3) after add activity and cme no any notification received
+
+

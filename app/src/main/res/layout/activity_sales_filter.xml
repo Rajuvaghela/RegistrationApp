@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <TextView
+        android:id="@+id/txtReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBar"
+        android:background="@color/purpale_green"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtApply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appBar"
+        android:background="@drawable/selector_green_btn"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h5"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtReset"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:background="@color/lv_activated"
+            android:divider="@color/lv_devider"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@color/white_light" />
+
+        <FrameLayout
+            android:id="@+id/detailView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.75">
+
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

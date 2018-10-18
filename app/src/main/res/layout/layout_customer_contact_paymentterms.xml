@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/cardPayment"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:ignore="NamespaceTypo"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/llPaymentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/txtCustomerDetailslabelPaymentterms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_terms"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCustomerDetailsPaymentterms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Net30"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/h4" />
+
+        <TextView
+            android:id="@+id/txtCustomerDetailslabelcreditlimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_20_dp"
+            android:text="@string/credit_limit"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/h4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCustomerDetailscreditlimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="54648"
+            android:textSize="@dimen/h4" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtLabelworkSpaceUrl"
+        style="@style/marginLeftRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_130_dp"
+        android:text="Workspace URL"
+        android:textColor="@color/white"
+        android:textSize="@dimen/h4" />
+
+
+    <TextView
+        android:id="@+id/txtLabelHttps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabelworkSpaceUrl"
+        android:layout_marginLeft="@dimen/common_16_dp"
+        android:layout_marginStart="@dimen/common_16_dp"
+        android:layout_marginTop="@dimen/common_20_dp"
+        android:text="https://"
+        android:textColor="@color/white_light"
+        android:textSize="@dimen/h2" />
+
+    <EditText
+        android:id="@+id/edtWorkSpaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabelworkSpaceUrl"
+        android:layout_marginTop="@dimen/common_10_dp"
+        android:layout_toEndOf="@id/txtLabelHttps"
+        android:layout_toRightOf="@id/txtLabelHttps"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_light"
+        android:textSize="@dimen/h2" />
+
+    <TextView
+        android:id="@+id/txtLabelKptCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabelworkSpaceUrl"
+        android:layout_marginTop="@dimen/common_20_dp"
+        android:layout_toEndOf="@id/edtWorkSpaceName"
+        android:layout_toRightOf="@id/edtWorkSpaceName"
+        android:text="@string/kpt_com"
+        android:textColor="@color/white_light"
+        android:textSize="@dimen/h2" />
+
+
+    <TextView
+        android:id="@+id/txtNoticeKptWorkSpaceID"
+        style="@style/marginLeftRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabelHttps"
+        android:layout_marginTop="@dimen/common_30_dp"
+        android:text="Don't know your workspace URL? We've sent an email to keyur@riontech.com that will help you sign in.  "
+        android:textColor="@color/white"
+        android:textSize="@dimen/h4" />
+
+
+    <!--android:background="@drawable/progress_ui_btn_bg"-->
+    <!--android:background="@drawable/selector_btn_white"-->
+    <Button
+        android:id="@+id/btnNextWorkSpace"
+        style="@style/marginLeftRightStyleTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/common_60_dp"
+        android:background="@drawable/progress_ui_workspace"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_16_sp" />
+
+    <include layout="@layout/progress_bar" />
+
+
+</RelativeLayout>

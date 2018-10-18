@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="company_names">Company name is mandatory.</string>
+    <string name="order_item">At least 1 item is required.</string>
+    <string name="no_internate">Slow or no internet connection.\nPlease check your internet setting.</string>
+    <string name="upincorrect">Incorrect Username or Password, Please try again!</string>
+    <string name="workspace_id_notvalid">WorkSpace is not valid.</string>
+    <string name="nodeta_found">Data is not available, please try again!.</string>
+    <string name="not_valid_workspace_id">Workspace is not valid, please try again!</string>
+    <string name="credit_day_required">Credit days is required</string>
+
+    <!-- Filter error messages -->
+    <string name="select_one_customer">Select at least 1 customer to filter.</string>
+    <string name="start_end_range_err_msg">Please enter Start range or End range Amount value.</string>
+</resources>

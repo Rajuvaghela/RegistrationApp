@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLbContacts"
+        android:background="@color/purpale_green"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="@dimen/common_10_dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Other Contact" />
+
+    <ImageView
+        android:id="@+id/imgPopUpCancel"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/padding_5dp"
+        android:layout_marginEnd="@dimen/padding_5dp"
+        android:background="@drawable/selector_green_btn"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_10_dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/close"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilOtherContactName"
+        android:layout_width="match_parent"
+        style="@style/marginLeftRight"
+        android:layout_below="@id/txtLbContacts"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_20_dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/h4">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtOtherContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/common_5_dp"
+            android:hint="@string/enter_name"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/h4" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilOtherEmailId"
+        style="@style/marginLeftRight"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tilOtherContactName"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/h4">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtOtherEmailID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_5_dp"
+            android:hint="@string/enter_email"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/h4" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilOtherPhoneNo"
+        android:layout_width="match_parent"
+        style="@style/marginLeftRight"
+        android:layout_below="@id/tilOtherEmailId"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/h4">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtOtherPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_5_dp"
+            android:hint="@string/enter_phone_no"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/h4" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilOtherMobileNo"
+        android:layout_width="match_parent"
+        style="@style/marginLeftRight"
+        android:layout_below="@id/tilOtherPhoneNo"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/h4">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtOtherMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_5_dp"
+            android:hint="@string/enter_mobile_no"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:textSize="@dimen/h4" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_below="@id/tilOtherMobileNo"
+        android:layout_marginTop="@dimen/common_20_dp"
+        android:background="@drawable/simple_selector_white"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:padding="@dimen/common_10_dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+
+
+</RelativeLayout>

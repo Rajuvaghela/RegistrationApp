@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_dashboard"
+            android:checked="false"
+            android:icon="@drawable/ic_dashbord"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/menu_design"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="Design" />
+
+        <item
+            android:id="@+id/menu_orderform"
+            android:checked="false"
+            android:icon="@drawable/ic_order"
+            android:title="@string/order_form"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/menu_sales"
+            android:checked="false"
+            android:icon="@drawable/ic_sales"
+            android:title="@string/sales_bill"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_jobwork"
+            android:checked="false"
+            android:icon="@drawable/ic_call"
+            android:title="@string/job_work"
+            android:visible="true" />
+
+
+        <item
+            android:id="@+id/menu_rawmaterial"
+            android:checked="false"
+            android:icon="@drawable/ic_call"
+            android:title="@string/raw_material"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/menu_ledgers"
+            android:checked="false"
+            android:icon="@drawable/ic_ledgers"
+            android:title="@string/ledgers"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/menu_expenses"
+            android:checked="false"
+            android:icon="@drawable/ic_expenses"
+            android:title="@string/expenses"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_customers"
+            android:checked="false"
+            android:icon="@drawable/ic_if_user"
+            android:title="@string/customers"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_agents"
+            android:checked="false"
+            android:icon="@drawable/ic_call"
+            android:title="@string/agents"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_vendors"
+            android:checked="false"
+            android:icon="@drawable/ic_call"
+            android:title="@string/vendors"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_labours"
+            android:checked="false"
+            android:icon="@drawable/ic_call"
+            android:title="@string/labours"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_users"
+            android:checked="false"
+            android:icon="@drawable/ic_account_circle"
+            android:title="@string/users"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_transport"
+            android:checked="false"
+            android:icon="@drawable/ic_transport"
+            android:title="@string/transport"
+            android:visible="true" />
+        <item
+            android:id="@+id/menu_reports"
+            android:checked="false"
+            android:icon="@drawable/ic_report_analysis"
+            android:title="@string/reports_analytics"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/menu_logout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+
+    </group>
+
+    <!--<item android:title="About Us">-->
+        <!--<menu>-->
+            <!--<group android:checkableBehavior="single">-->
+                <!--<item-->
+                    <!--andrsareeIdd:idsareeId@+id/nav_history"-->
+                    <!--android:icon="@drawable/ic_history"-->
+                    <!--android:title="@string/history" />-->
+                <!--<item-->
+                    <!--andrsareeIdd:idsareeId@+id/nav_feedback"-->
+                    <!--android:icon="@drawable/ic_feedback"-->
+                    <!--android:title="@string/feedback" />-->
+                <!--<item-->
+                    <!--andrsareeIdd:idsareeId@+id/nav_contact_us"-->
+                    <!--android:icon="@drawable/ic_contact_phone"-->
+                    <!--android:title="@string/contact_us" />-->
+            <!--</group>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item-->
+        <!--andrsareeIdd:idsareeId@+id/nav_developer"-->
+        <!--android:icon="@drawable/ic_developer"-->
+        <!--android:title="@string/design_developer" />-->
+</menu>

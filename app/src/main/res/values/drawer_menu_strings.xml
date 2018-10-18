@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation menu string -->
+
+    <string name="dashboard">Dashboard</string>
+    <string name="design">Design</string>
+    <string name="order_form">Order Form</string>
+    <string name="sales_bill">Sales Bill</string>
+    <string name="job_work">Job Work</string>
+    <string name="raw_material">Raw Material</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_return_list">Purchase Return</string>
+    <string name="ledgers">Ledgers</string>
+    <string name="expenses">Expenses</string>
+    <string name="customers">Customers</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="payment">Payment</string>
+    <string name="order">Order</string>
+    <string name="reports">Reports</string>
+    <string name="agents">Agents</string>
+    <string name="vendors">Vendors</string>
+    <string name="labours">Labours</string>
+    <string name="users">Users</string>
+    <string name="transport">Transport</string>
+    <string name="reports_analytics">Reports/Analytics</string>
+    <string name="logout">Logout</string>
+
+    <!--Navigation menu string end -->
+</resources>

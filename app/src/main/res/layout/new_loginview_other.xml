@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlLogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/imgLoginLogo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/common_100_dp"-->
+            <!--android:layout_marginTop="@dimen/common_20_dp"-->
+            <!--android:src="@drawable/logo" />-->
+            <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+                android:id="@+id/imgLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/common_60_dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/riotech"
+                app:cfl_border="true"
+                app:cfl_border_width="6dp"
+                app:cfl_progress="70"
+                app:cfl_wave_amplitude="0.06"
+                app:cfl_wave_color="@color/gray" />
+
+
+            <LinearLayout
+                android:id="@+id/llAuthentication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_horizontal_margin">
+
+
+
+                    <EditText
+                        android:id="@+id/edtUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_black_border"
+                        android:focusable="true"
+                        android:hint="UserName"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:drawableRight="@drawable/ic_user"
+                        android:drawableEnd="@drawable/ic_user"
+                        android:paddingBottom="@dimen/common_10_dp"
+                        android:paddingLeft="@dimen/common_20_dp"
+                        android:paddingStart="@dimen/common_20_dp"
+                        android:paddingEnd="@dimen/common_20_dp"
+                        android:paddingRight="@dimen/common_20_dp"
+                        android:paddingTop="@dimen/common_10_dp"
+                        android:textColor="@color/transparent_black"
+                        android:textSize="@dimen/h3" />
+
+
+
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_30_dp"
+                        android:background="@drawable/btn_black_border"
+                        android:hint="@string/password"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:paddingBottom="@dimen/common_10_dp"
+                        android:paddingLeft="@dimen/common_20_dp"
+                        android:paddingStart="@dimen/common_20_dp"
+                        android:paddingEnd="@dimen/common_20_dp"
+                        android:paddingRight="@dimen/common_20_dp"
+                        android:drawableRight="@drawable/ic_password"
+                        android:drawableEnd="@drawable/ic_password"
+                        android:paddingTop="@dimen/common_10_dp"
+                        android:textColor="@color/transparent_black"
+                        android:textSize="@dimen/h3" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/llTermAndCondition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbTermCondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textSize="@dimen/h6" />
+
+                    <TextView
+                        android:id="@+id/txtTerms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:text="@string/remember_me"
+                        android:textSize="@dimen/h6" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:clickable="true"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/BtnTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llAuthentication"
+                android:layout_marginEnd="@dimen/btn_horizontal_margin"
+                android:layout_marginLeft="@dimen/btn_horizontal_margin"
+                android:layout_marginRight="@dimen/btn_horizontal_margin"
+                android:layout_marginStart="@dimen/btn_horizontal_margin"
+                android:layout_marginTop="@dimen/common_40_dp"
+                android:background="@drawable/progress_ui_login_btn"
+                android:text="@string/login" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/progress_bar" />
+
+</RelativeLayout>

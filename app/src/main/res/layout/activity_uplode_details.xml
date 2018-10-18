@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true">
+
+    <!--<include layout="@layout/appbar_layout" />-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardUolodeDetails"
+        app:cardCornerRadius="@dimen/_1sdp"
+        android:layout_width="match_parent"
+        app:cardElevation="5dp"
+
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlUplodeDetailslable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhiteViewOverlay"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/common_16_dp"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginLeft="@dimen/common_16_dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="UPLOAD DETAILS"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_20_dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:orientation="vertical"
+            android:background="@color/screen_background"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:id="@+id/llpassportPicture"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                style="@style/common_margin"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/textView_black_12sdp"
+                        android:id="@+id/txtLblPassportPicture"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Passport Picture*"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:layout_weight="2"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txtPassportPicsCamera"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:drawableRight="@drawable/ic_cameraopen"
+                        android:drawableEnd="@drawable/ic_cameraopen"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:background="@drawable/edt_apply_border"
+                        android:layout_centerHorizontal="true"
+                        android:text="camera"/>
+
+                    <TextView
+                        android:id="@+id/txtPassportPicsUplode"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic_folder_24"
+                        android:drawableEnd="@drawable/ic_folder_24"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:text="upload"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llIntPassport"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_below="@+id/llpassportPicture"
+                style="@style/common_margin"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/textView_black_12sdp"
+                        android:id="@+id/txtLblInterNationalPassPort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="International PassPort*"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_weight="2"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txtIntPassportCameraPic"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:drawableRight="@drawable/ic_cameraopen"
+                        android:drawableEnd="@drawable/ic_cameraopen"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:background="@drawable/edt_apply_border"
+                        android:text="camera"/>
+
+                    <TextView
+                        android:id="@+id/txtIntPassportUplodePics"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic_folder_24"
+                        android:drawableEnd="@drawable/ic_folder_24"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:text="upload"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llProofOfAddress"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_below="@+id/llIntPassport"
+                style="@style/common_margin"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/textView_black_12sdp"
+                        android:id="@+id/txtLbAddressOfProof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proof of Address"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_weight="2"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txtProofOfAddressCameraPic"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:drawableRight="@drawable/ic_cameraopen"
+                        android:drawableEnd="@drawable/ic_cameraopen"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:text="camera"/>
+
+                    <TextView
+                        android:id="@+id/txtProofOfAddressUplodePics"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic_folder_24"
+                        android:drawableEnd="@drawable/ic_folder_24"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:text="upload"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llProofOfEmployeement"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_below="@+id/llProofOfAddress"
+                style="@style/common_margin"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/textView_black_12sdp"
+                        android:id="@+id/txtLbProofOfEmployeement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Proof of Employment"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_weight="2"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txtProofOfEmployeementCameraPic"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:drawableRight="@drawable/ic_cameraopen"
+                        android:drawableEnd="@drawable/ic_cameraopen"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:text="camera"/>
+
+                    <TextView
+                        android:id="@+id/txtProofOfEmployeementUplodePics"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:drawableLeft="@drawable/ic_folder_24"
+                        android:drawableEnd="@drawable/ic_folder_24"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:background="@drawable/edt_apply_border"
+                        android:singleLine="true"
+                        android:maxLength="7"
+                        android:text="upload"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llAmountAgent"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="2"
+                android:layout_below="@+id/llProofOfEmployeement"
+                style="@style/common_margin"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        style="@style/textView_black_12sdp"
+                        android:id="@+id/txtLblAmountPaid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amount Paid*"/>
+
+                    <EditText
+                        android:id="@+id/edtAmountPaid"
+                        style="@style/editView_black_12sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:background="@drawable/edt_apply_border"
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:inputType="number"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txtLblAgentNo"
+                        style="@style/textView_black_12sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Agent No.*"/>
+
+                    <EditText
+                        android:id="@+id/edtAgentNo"
+                        style="@style/editView_black_12sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:background="@drawable/edt_apply_border"
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:inputType="number"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llVisaCardNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llAmountAgent"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal"
+                style="@style/common_margin">
+
+                <TextView
+                    android:id="@+id/txtLableVisacardNo"
+                    style="@style/textView_black_12sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visa Card Number*"
+                    />
+
+                <EditText
+                    android:id="@+id/edtVisaCardNo"
+                    style="@style/editView_black_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:background="@drawable/edt_apply_border"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:inputType="number"
+                    android:singleLine="true"
+
+                    />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewMiddle"
+                android:layout_below="@+id/llVisaCardNo"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/gray"
+                android:layout_height="@dimen/_1sdp"/>
+
+            <TextView
+                android:id="@+id/txtReadTermsAndCondition"
+                style="@style/textView_black_12sdp"
+                android:layout_below="@+id/viewMiddle"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_apply_border"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:drawablePadding="@dimen/_5sdp"
+                android:drawableRight="@drawable/ic_right_red_areo"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:text="@string/read_tearms_and_condition"
+                />
+
+            <TextView
+                android:id="@+id/txtDeclaration"
+                style="@style/textView_black_8sdp"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/txtReadTermsAndCondition"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/declarationNote"/>
+
+            <LinearLayout
+                android:id="@+id/llAcceptTermsAndCondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:layout_below="@+id/txtDeclaration"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                style="@style/common_margin">
+
+                <CheckBox
+                    android:id="@+id/chkboxTermsAndCondition"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingRight="@dimen/padding_5dp"
+                    android:paddingBottom="@dimen/padding_5dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:paddingLeft="@dimen/_1sdp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_acept_term_and_condition" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                style="@style/BtnTheme"
+                android:layout_below="@+id/llAcceptTermsAndCondition"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_75sdp"
+                android:layout_marginLeft="@dimen/_75sdp"
+                android:layout_marginRight="@dimen/_75sdp"
+                android:layout_marginStart="@dimen/_75sdp"
+                android:background="@drawable/submit"
+                android:layout_marginBottom="@dimen/_15sdp" />
+
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/progress_bar" />
+</android.support.design.widget.CoordinatorLayout>

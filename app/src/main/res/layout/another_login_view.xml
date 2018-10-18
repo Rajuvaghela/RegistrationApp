@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlLogin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+            android:id="@+id/imgLoginLogo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_100_dp"
+            android:layout_marginTop="@dimen/common_20_dp"
+            android:src="@drawable/riotech" />
+
+
+
+            <LinearLayout
+                android:id="@+id/llAuthentication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_50_dp"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_horizontal_margin">
+
+
+
+                    <EditText
+                        android:id="@+id/edtUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:hint="Enter Username"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/white"
+                        android:background="@drawable/btn_shape_corner"
+                        android:inputType="text"
+                        android:textColor="@color/white"
+                        android:padding="@dimen/common_5_dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/h3" />
+
+
+
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/password"
+                        android:layout_weight="1"
+                        android:layout_marginTop="@dimen/common_20_dp"
+                        android:textColorHint="@color/white"
+                        android:background="@drawable/btn_shape_corner"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:padding="@dimen/common_5_dp"
+                        android:layout_gravity="center_vertical"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:textSize="@dimen/h3" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/llTermAndCondition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbTermCondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:textSize="@dimen/h6" />
+
+                    <TextView
+                        android:id="@+id/txtTerms"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:text="@string/remember_me"
+                        android:textSize="@dimen/h6" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:clickable="true"
+                    android:text="@string/forgot_password"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="@style/BtnTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llAuthentication"
+                android:background="@drawable/btn_shape_corner"
+                android:layout_marginEnd="@dimen/btn_horizontal_margin"
+                android:layout_marginLeft="@dimen/btn_horizontal_margin"
+                android:layout_marginRight="@dimen/btn_horizontal_margin"
+                android:layout_marginStart="@dimen/btn_horizontal_margin"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:text="@string/login" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <include layout="@layout/progress_bar" />
+
+</RelativeLayout>

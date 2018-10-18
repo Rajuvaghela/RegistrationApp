@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016 riontech-xten
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M 0 9 H 7 V 32 H 0 V 9 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M24.003,9C20,9,18.89,10.312,18,12V9h-7v23h7V19c0-2,0-4,3.5-4s3.5,2,3.5,4v13h7V19C32,13,31,9,24.003,9z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M 3.5 0 C 5.43299662441 0 7 1.56700337559 7 3.5 C 7 5.43299662441 5.43299662441 7 3.5 7 C 1.56700337559 7 0 5.43299662441 0 3.5 C 0 1.56700337559 1.56700337559 0 3.5 0 Z" />
+</vector>

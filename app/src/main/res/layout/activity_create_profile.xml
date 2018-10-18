@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_15_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_20_dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <FrameLayout
+                android:id="@+id/flImgUser"
+                android:layout_width="@dimen/common_100_dp"
+                android:layout_height="@dimen/common_100_dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/imgUserProfile"
+                    android:layout_width="@dimen/common_100_dp"
+                    android:layout_height="@dimen/common_100_dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_avatar" />
+
+                <ImageView
+                    android:id="@+id/imgEditPhotoProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/common_70_dp"
+                    android:layout_marginStart="@dimen/common_70_dp"
+                    android:src="@drawable/icon_add_image" />
+
+                <ProgressBar
+                    android:id="@+id/pbLoaderProfileUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtCreateProfileFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_20_dp"
+                android:textSize="@dimen/h4">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtCreateProfileFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/first_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/h4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtCreateProfileLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_20_dp"
+                android:textSize="@dimen/h4">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtCreateProfileLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/h4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtCreateProfilePhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_20_dp"
+                android:textSize="@dimen/h4">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtCreateProfilePhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mobile"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/h4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/txtCreateProfileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_20_dp"
+                android:textSize="@dimen/h4">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edtCreateProfileEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/h4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnCreateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/common_30_dp"
+                android:layout_marginTop="@dimen/common_30_dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_simple_btn"
+                android:text="@string/create" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlContentCustomer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <ScrollView
+        android:id="@+id/scrollMainView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/llcardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/layout_customer_details" />
+
+            <include layout="@layout/layout_customer_transport" />
+
+            <include layout="@layout/layout_customer_agent" />
+
+            <include layout="@layout/layout_customer_address_view"/>
+
+            <include layout="@layout/layout_customer_contacts" />
+
+            <!--<include layout="@layout/layout_payment_credit"/>-->
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@style/marginLeftRightStyleTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/common_10_dp"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:inputType="textCapSentences"
+                android:background="@drawable/selector_simple_btn"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_16_sp" />
+
+
+            <Button
+                android:id="@+id/btnAddAddress"
+                style="@style/marginLeftRightStyleTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/common_10_dp"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:visibility="gone"
+                android:inputType="textCapSentences"
+                android:background="@drawable/selector_simple_btn"
+                android:text="@string/add_address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_16_sp" />
+
+            <Button
+                android:id="@+id/btnAddContact"
+                style="@style/marginLeftRightStyleTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_simple_btn"
+                android:text="@string/add_contacts"
+                android:visibility="gone"
+                android:inputType="textCapSentences"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/common_10_dp"
+                android:textSize="@dimen/common_16_sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/progress_bar" />
+
+</RelativeLayout>

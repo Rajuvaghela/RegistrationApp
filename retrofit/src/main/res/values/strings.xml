@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="require_base_url">baseUrl should not be null or empty, require to connect with server to network call</string>
+</resources>

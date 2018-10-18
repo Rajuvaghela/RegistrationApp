@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016 riontech-xten
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/widget_appbar" />
+
+        <TextView
+            android:id="@+id/loadMore"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/purpale_green"
+            android:gravity="center_vertical"
+            android:text="Loading Please Wait......"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_2_dp"
+            android:layout_marginTop="@dimen/common_2_dp"
+            android:background="@drawable/button_shape"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/loadMore"
+            android:layout_below="@id/search" />
+
+        <LinearLayout
+            android:id="@+id/llSalesSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appBarLayout"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:id="@+id/llEdtsales"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/common_5_dp"
+                android:layout_marginStart="@dimen/common_5_dp"
+                android:orientation="vertical"
+                android:background="@drawable/btn_black_border"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/edtSalesText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_5_dp"
+                    android:layout_marginRight="@dimen/common_5_dp"
+                    android:paddingLeft="@dimen/common_10_dp"
+                    android:paddingStart="@dimen/common_10_dp"
+                    android:paddingRight="@dimen/common_10_dp"
+                    android:paddingEnd="@dimen/common_10_dp"
+                    android:paddingTop="@dimen/common_10_dp"
+                    android:paddingBottom="@dimen/common_10_dp"
+                    android:backgroundTint="@color/white"
+                    android:hint="Enter Search Text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSalesSpnType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="@dimen/common_5_dp"
+                android:layout_marginRight="@dimen/common_5_dp"
+                android:background="@drawable/btn_black_border"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <Spinner
+                    android:id="@+id/spnSalesTypeFind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/common_5_dp"
+                    android:paddingLeft="@dimen/common_10_dp"
+                    android:paddingStart="@dimen/common_10_dp"
+                    android:paddingRight="@dimen/common_10_dp"
+                    android:paddingEnd="@dimen/common_10_dp"
+                    android:paddingTop="@dimen/common_10_dp"
+                    android:paddingBottom="@dimen/common_10_dp"
+                    android:entries="@array/spnSalesItem"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/viewSpnType"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_05_dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/common_3_dp"
+                    android:layout_marginLeft="@dimen/common_3_dp"
+                    android:layout_marginRight="@dimen/common_3_dp"
+                    android:layout_marginStart="@dimen/common_3_dp"
+                    android:background="@color/black"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/llSalesSearch"
+            android:layout_marginTop="@dimen/common_10_dp"
+            android:orientation="vertical" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorAccent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/llNDF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/no_data_found_view" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/viewNoResultFound"
+            layout="@layout/no_result_found"
+            android:visibility="gone" />
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/content_main"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/common_50_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".ui.activity.TMainActivity"
+            tools:showIn="@layout/app_bar_main">
+
+            <!--<fragment
+                android:name="com.xtensolution.kpt.ui.fragment.SalesFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />-->
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_15_dp">
+
+            <TextView
+                android:id="@+id/txtCustomerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/imgCustomerDetailsphone"
+                android:layout_toStartOf="@id/imgCustomerDetailsphone"
+                android:textColor="@color/purpale_green"
+                android:textSize="@dimen/h3" />
+
+            <ImageView
+                android:id="@+id/imgCustomerDetailsphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/common_10_dp"
+                android:layout_marginStart="@dimen/common_10_dp"
+                android:padding="@dimen/common_05_dp"
+                android:background="@drawable/simple_blue_ripple"
+                android:src="@drawable/ic_call_shap" />
+
+            <TextView
+                android:id="@+id/txtCustomerAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCustomerName"
+                android:layout_marginTop="@dimen/common_5_dp"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:id="@+id/txtlabelagent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtCustomerAddress"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:text="@string/agents"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:id="@+id/txtagent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/txtlabelagent"
+                android:layout_toLeftOf="@id/imgAgentphone"
+                android:layout_toStartOf="@id/imgAgentphone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/h3" />
+
+            <ImageView
+                android:id="@+id/imgAgentphone"
+                android:layout_width="@dimen/common_30_dp"
+                android:layout_height="@dimen/common_30_dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtlabelagent"
+                android:layout_marginLeft="@dimen/common_10_dp"
+                android:layout_marginStart="@dimen/common_10_dp"
+                android:padding="@dimen/padding_5dp"
+                android:src="@drawable/ic_phone_call" />
+
+
+            <TextView
+                android:id="@+id/txtlabeltransport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtagent"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:text="@string/transport"
+                android:textSize="@dimen/h6" />
+
+            <TextView
+                android:id="@+id/txttransport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/txtlabeltransport"
+                android:layout_toLeftOf="@id/imgTransportphone"
+                android:layout_toStartOf="@id/imgTransportphone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/h3" />
+
+            <ImageView
+                android:id="@+id/imgTransportphone"
+                android:layout_width="@dimen/common_30_dp"
+                android:layout_height="@dimen/common_30_dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txtlabeltransport"
+                android:layout_marginLeft="@dimen/common_10_dp"
+                android:layout_marginStart="@dimen/common_10_dp"
+                android:padding="@dimen/padding_5dp"
+                android:src="@drawable/ic_phone_call" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

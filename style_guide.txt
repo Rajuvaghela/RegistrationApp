@@ -1,0 +1,68 @@
+primary color:#1080d0
+primary dark color :  #1C3953
+accent color : #1f1f1f
+
+primary text color : #9b9b9b
+secondary text color :#8e8e8e
+
+primary text size : 30px
+secondary text size : 15px
+
+title text size : 25px (18px)
+title color : #5c91b6
+
+menu item color: #383838
+
+font style : "Poppins", sans-serif
+
+border color : #e6e6e6
+
+
+    100% — FF
+    95% — F2
+    90% — E6
+    87% - DE
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    54% - 8A
+    50% — 80
+    45% — 73
+    40% — 66
+    38% - 61
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    12% - 1F
+    10% — 1A
+    5% — 0D
+    0% — 00
+
+Primary text: (100%) FFFFFFFF
+Secondary text:(70%) B3FFFFFF
+Disabled text, hint text, and icons: (50%) 80FFFFFF
+Dividers: (12%) 1FFFFFFF
+
+Sizing
+
+Product icons are 48dp; system icons are 24dp
+
+Icons on light backgrounds
+
+Icon state Opacity
+Active + focused 87%
+Active + unfocused 54%
+Inactive 38%
+
+Icons on dark backgrounds
+
+Icon state Opacity
+Active + focused 100%
+Active + unfocused 70%
+Inactive 50%

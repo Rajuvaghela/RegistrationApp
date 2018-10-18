@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/splashscreen"
+    android:layout_height="match_parent">
+
+   <Button
+       android:id="@+id/btnStartRegistration"
+       style="@style/BtnTheme"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_35sdp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="@dimen/_50sdp"
+       android:layout_marginRight="@dimen/_50sdp"
+       android:textColor="@color/black"
+       android:text="START REGISTRATION"
+       android:background="@drawable/btn_start_registration"
+       android:layout_marginBottom="@dimen/_70sdp"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.riontech.retrofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!--<receiver-->
+            <!--andrsareeNamename=".network.NetworkChangeReceiver"-->
+            <!--android:enabled="true"-->
+            <!--android:label="NetworkChangeReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action andrsareeNamename="android.net.conn.CONNECTIVITY_CHANGE" />-->
+                <!--<action andrsareeNamename="android.net.wifi.WIFI_STATE_CHANGED" />-->
+                <!--<action andrsareeNamename="android.net.wifi.STATE_CHANGE" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+    </application>
+
+</manifest>

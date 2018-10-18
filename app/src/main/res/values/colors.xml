@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Red Theme start -->
+    <color name="colorPrimaryRedTheme">#0099FF</color>
+    <!--<cosareeNamename="colorPrimaryRedTheme">#D50000</color>-->
+    <color name="colorPrimaryDarkRedTheme">#0099FF</color>
+    <!--<cosareeNamename="colorAccentRedTheme">#5DB8E4</color>-->
+    <color name="colorAccentRedTheme">#8CCDEC</color>
+    <color name="c1">#ee9664</color>
+    <color name="darkred">#8B0000</color>
+    <color name="dark_pink">#E12040</color>
+
+    <!-- Red theme end-->
+
+    <!-- Light Blue Theme start -->
+    <color name="colorPrimaryLightBlueTheme">#5DB8E4</color>
+    <color name="colorPrimaryDarkLightBlueTheme">#199BD9</color>
+    <color name="colorAccentLightBlueTheme">#EE4A55</color>
+    <!-- Light Blue theme end-->
+
+    <!-- Light Blue Theme start -->
+    <color name="colorPrimaryBoldBlueTheme">#199BD9</color>
+    <color name="colorPrimaryDarkBoldBlueTheme">#0f6eb3</color>
+    <color name="colorAccentBoldBlueTheme">#EE4A55</color>
+    <!-- Light Blue theme end-->
+
+    <!--<cosareeNamename="colorPrimary">#2d2885</color>-->
+    <!--<cosareeNamename="colorPrimary">#3d3d3d</color>-->
+    <!--<cosareeNamename="colorPrimaryDark">#241e84</color>-->
+    <!--<cosareeNamename="colorAccent">#cd0406</color>-->
+
+  <!--  <color name="colorPrimary">#199BD9</color>
+    <color name="colorPrimaryDark">#5DB8E4</color>
+    <color name="colorAccent">#5DB8E4</color>-->
+
+    <color name="colorTextValue">#199BD9</color>
+    <!--<cosareeNamename="colorPrimary">@color/colorPrimaryRed1</color>-->
+    <color name="colorBlueBox">#0f6eb3</color>
+
+    <!--nfc-->
+   <!-- <color name="colorPrimary">#1D4E76</color>
+    <color name="colorPrimaryDark">#1D4E76</color>
+    <color name="colorAccent">#BF1D4E76</color>-->
+
+    <color name="colorPrimary"> #ec3237</color>
+    <color name="colorPrimaryDark">#ec3237</color>
+    <color name="colorAccent"> #ec3237</color>
+
+    <color name="screen_background">#f8f8f8</color>
+    <color name="header">#fefefe</color>
+    <color name="edittext_bg">#fefefe</color>
+    <color name="edittest_border_color">#dfdfdf</color>
+
+    <color name="start_registration">#aaabaf</color>
+
+    <!--<color name="colorAccent">#c5c5c5</color>-->
+
+
+    <color name="colorBorder">#BDBDBD</color>
+    <color name="colorMenuItem">#383838</color>
+    <color name="colorPrimaryText">@color/light_bg_dark_primary_text</color>
+    <color name="colorSecondaryText">@color/light_bg_dark_secondary_text</color>
+    <color name="colorDisableText">@color/light_bg_dark_disabled_text</color>
+    <color name="colorHintText">@color/light_bg_dark_hint_text</color>
+    <color name="colorTitle">#0f6eb3</color>
+    <color name="colorWhite">#ffffff</color>
+    <!--<cosareeNamename="colorBg">#F5F5F5</color>-->
+    <!--<cosareeNamename="colorBg">#ffe6e6</color>-->
+    <color name="splash_color">#8A2BE2</color>
+    <color name="colorBg">#f2f2f2</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="purpale_green">#8bc34a</color>
+    <color name="btn_pressed_color">#BDBDBD</color>
+    <color name="shadow_with_opacity_5">#0DBDBDBD</color>
+    <color name="shadow_with_opacity_10">#1ABDBDBD</color>
+    <color name="shadow_with_opacity_15">#26BDBDBD</color>
+    <color name="shadow_with_opacity_20">#33BDBDBD</color>
+    <color name="colorItemSelector">#333d3d3d</color>
+    <color name="colorDeveloperTheme">#F29320</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#23A85B</color>
+
+    <!--Light Background Dark Text-->
+    <color name="light_bg_dark_primary_text">#BF000000</color>
+    <color name="light_bg_dark_secondary_text">#8A000000</color>
+    <color name="light_bg_dark_disabled_text">#61000000</color>
+    <color name="light_bg_dark_hint_text">#61000000</color>
+
+    <!--Dark Background Light Text-->
+    <color name="dark_bg_light_primary_text">#FFFFFFFF</color>
+    <color name="dark_bg_light_secondary_text">#B3FFFFFF</color>
+    <color name="dark_bg_light_disabled_text">#80FFFFFF</color>
+    <color name="dark_bg_light_hint_text">#80FFFFFF</color>
+    <!--<cosareeNamename="gray">#E4e5e6</color>-->
+
+    <color name="drak_gray">#BDBDC4</color>
+    <color name="drak_gray_shade">#5B6B7F</color>
+    <color name="Htmllightgray">#D8D8D8</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="gray">#808080</color>
+    <color name="dark_gray">#404040</color>
+
+    <color name="colorOfficeBearerUserBG">#1Acd0406</color>
+    <color name="transparent_black">#4d000000</color>
+
+
+    <color name="baner_bg">#512E5F</color>
+    <color name="colorTwitter">#55ACEE</color>
+    <color name="colorFacebook">@color/colorPrimary</color>
+    <color name="colorYoutube">@color/colorAccent</color>
+    <color name="colorGoogle">@color/colorAccent</color>
+    <color name="colorLinkedin">#007BB5</color>
+    <color name="colorWhiteViewOverlay">#80FFFFFF</color>
+    <color name="colorNotificationScroller">#2d2885</color>
+    //
+    <color name="color50Primary">#80FFFFFF</color>
+    <color name="group_divider_color">#80CBC4</color>
+
+    <color name="list_group_title">#808080</color>
+    <color name="list_item_title">#AAAAAA</color>
+
+    <!--Filter-->
+    <color name="lv_bg">#4E4E4E</color>
+    <color name="lv_activated">#9E9E9E</color>
+    <color name="lv_devider">#F4F4F4</color>
+    <color name="white_light">#D7DBDD</color>
+
+
+    //sliding......
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

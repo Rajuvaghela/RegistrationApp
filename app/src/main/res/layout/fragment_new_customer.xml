@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llcardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/layout_customer_details" />
+
+            <include layout="@layout/layout_customer_contacts" />
+
+            <include layout="@layout/layout_customer_transport" />
+
+            <Button
+                android:id="@+id/btnBilling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/common_10_dp"
+                android:layout_marginLeft="@dimen/common_10_dp"
+                android:layout_marginRight="@dimen/common_10_dp"
+                android:layout_marginStart="@dimen/common_10_dp"
+                android:background="@color/colorPrimary"
+                android:text=" Add Billing Address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_16_sp" />
+
+            <Button
+                android:id="@+id/btnShipping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/common_10_dp"
+                android:layout_marginEnd="@dimen/common_10_dp"
+                android:layout_marginLeft="@dimen/common_10_dp"
+                android:layout_marginRight="@dimen/common_10_dp"
+                android:layout_marginStart="@dimen/common_10_dp"
+                android:layout_marginTop="@dimen/common_10_dp"
+                android:background="@color/colorPrimary"
+                android:text=" Add Shipping Address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_16_sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
